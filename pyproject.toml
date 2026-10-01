@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "caber"
+version = "0.1.0"
+description = "Video analysis for capillary-breakup (CaBER) extensional rheometry"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Marco Caggioni" }]
+keywords = ["rheology", "caber", "capillary breakup", "extensional", "video analysis"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+widgets = ["ipywidgets", "pillow"]
+dev = ["pytest", "ipywidgets", "pillow", "jupyter"]
+
+[project.scripts]
+caber = "caber.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/rheopy/capillary-breakup"
+Repository = "https://github.com/rheopy/capillary-breakup"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/caber"]

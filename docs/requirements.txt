@@ -1,0 +1,10 @@
+sphinx
+myst-parser
+sphinx-rtd-theme
+opencv-python
+numpy
+scipy
+pandas
+matplotlib
+ipywidgets
+pillow
