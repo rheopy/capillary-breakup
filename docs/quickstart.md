@@ -1,7 +1,7 @@
 # Quickstart
 
-See `notebooks/caber_quickstart.ipynb` — the full walkthrough on the bundled
-Newtonian test clip:
+See `notebooks/caber_quickstart.ipynb` — the full walkthrough on the Newtonian
+test clip (downloaded on first use, then cached — see {doc}`test_clip`):
 
 1. Load the clip with `caber.data.test_clip_path()`.
 2. Define the region of interest interactively with `CaberVideo`

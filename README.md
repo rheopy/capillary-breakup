@@ -48,10 +48,11 @@ gives the viscosity once the surface tension is known.
 
 ## Test clip
 
-The package bundles a short Newtonian test clip
-(`caber.data.test_clip_path()`): a 6000 cP viscosity-standard oil filament
-thinning to breakup, 100 fps (rate taken from the camera overlay
-timestamps — the container metadata is wrong on the source file).
+A short Newtonian test clip is available via `caber.data.test_clip_path()`
+(downloaded once from the repo's public URL, then cached — not shipped in the
+wheel): a 6000 cP viscosity-standard oil filament thinning to breakup, 100 fps
+(rate taken from the camera overlay timestamps — the container metadata is
+wrong on the source file).
 
 ## License
 
