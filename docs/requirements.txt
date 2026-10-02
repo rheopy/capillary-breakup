@@ -1,7 +1,9 @@
 sphinx
 myst-parser
 sphinx-rtd-theme
-opencv-python
+# headless OpenCV for the docs build only (autodoc imports cv2; no GUI needed).
+# The shipped package still depends on opencv-python.
+opencv-python-headless
 numpy
 scipy
 pandas
