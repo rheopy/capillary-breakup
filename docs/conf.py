@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath("../src"))
 
-project = "caber"
+project = "rheopy-caber"
 author = "Marco Caggioni"
 release = "0.1.0"
 

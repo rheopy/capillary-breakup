@@ -13,14 +13,14 @@ api
 ## Install
 
 ```bash
-pip install caber          # headless: measure + analyze + CLI
-pip install caber[widgets] # + the interactive Jupyter viewer
+pip install rheopy-caber          # headless: measure + analyze + CLI
+pip install rheopy-caber[widgets] # + the interactive Jupyter viewer
 ```
 
 In JupyterLite/Pyodide:
 
 ```python
-%pip install -q opencv-python pillow ipywidgets caber
+%pip install -q opencv-python pillow ipywidgets rheopy-caber
 ```
 
 Note the non-headless `opencv-python` — the build with GUI-less video I/O has no

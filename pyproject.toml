@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "caber"
+name = "rheopy-caber"
 version = "0.1.0"
 description = "Video analysis for capillary-breakup (CaBER) extensional rheometry"
 readme = "README.md"

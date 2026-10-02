@@ -6,7 +6,7 @@ tune the crop/threshold/rotation live, then run the full analysis to get
 neck size vs frame. The per-frame image processing is shared with
 :mod:`caber.measure`, so widget and headless results agree.
 
-Requires the ``widgets`` extra (``pip install caber[widgets]``).
+Requires the ``widgets`` extra (``pip install rheopy-caber[widgets]``).
 Pyodide-compatible: install with ``%pip install -q opencv-python pillow
 ipywidgets`` as in the quickstart notebook.
 """
@@ -20,7 +20,7 @@ try:
     from IPython.display import display
 except ImportError as exc:  # pragma: no cover
     raise ImportError(
-        "caber.widgets needs ipywidgets: pip install caber[widgets]"
+        "caber.widgets needs ipywidgets: pip install rheopy-caber[widgets]"
     ) from exc
 
 import cv2
