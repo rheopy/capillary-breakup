@@ -1,6 +1,7 @@
 # caber — capillary-breakup video analysis
 
 [![CI](https://github.com/rheopy/capillary-breakup/actions/workflows/ci.yml/badge.svg)](https://github.com/rheopy/capillary-breakup/actions/workflows/ci.yml)
+[![Documentation Status](https://readthedocs.org/projects/capillary-breakup/badge/?version=latest)](https://capillary-breakup.readthedocs.io/en/latest/)
 
 A pip-installable, Pyodide-compatible library for analyzing capillary-breakup
 (CaBER) extensional rheometry videos: video in → filament neck radius vs time
